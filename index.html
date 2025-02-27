@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pancake shop</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div id="app">
+
+        <div id="ordersSection">
+            <h1>Orders</h1>
+            <div id="orders">
+                <!-- Inject order elements here -->
+
+
+            </div>
+        </div>
+        <div id="orderCreation">
+            <div id="foodoptions">
+                <div class="foodoption">
+                    <img src="./assets/pancakes.png" alt="pancake">
+                    <h2>Pancakes</h2>
+                    <form id="pancakeForm"><input type = "number" value="3" id="pancakeInput"><input type="submit" value="Create Orders" id="pancakeB"></form>
+                    <button id="pancakeOrderButton">Create Order</button>
+                    <button id="doublePancakeOrder">Create 2 Orders</button>
+                </div>
+                
+                <div class="foodoption">
+                    <img src="./assets/coffee.png" alt="pancake">
+                    <h2>Coffee</h2>
+                    <form id="coffeeForm"><input type = "number" value="3" id="coffeeInput"><input type="submit" value="Create Orders" id="coffeeB"></form>
+                    <button id="coffeeOrderButton">Create Order</button>
+                    <button id="doubleCoffeeOrder">Create 2 Orders</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
